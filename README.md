@@ -1,6 +1,9 @@
-# BtcTurk.Client
+﻿# BtcTurk.Client
 
 A .NET client library for interacting with the BtcTurk cryptocurrency exchange API.
+
+> ⚠️ **WARNING: Alpha Stage Software**  
+> This package is in alpha stage and has not been thoroughly tested in production environments. Use with caution and expect potential breaking changes in future releases.
 
 ## Installation
 
@@ -90,3 +93,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## nuget build
+
+dotnet pack -c Release

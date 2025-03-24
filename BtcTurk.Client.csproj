@@ -5,20 +5,21 @@
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>BtcTurk.Client</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.0-alpha</Version>
     <Authors>BtcTurk API Client</Authors>
     <Description>A .NET client library for the BtcTurk API</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://docs.btcturk.com</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mehmetcankamar/BtcTurk.Client</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mehmetcankamar/BtcTurk.Client</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>btcturk;crypto;trading;api</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.3" />
     <PackageReference Include="System.Net.Http.Json" Version="9.0.3" />
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
     <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
